@@ -1,0 +1,20 @@
+{
+    "name": "marijnvdwerf/brickworld",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marijn van der Werf",
+            "email": "marijn.vanderwerf@gmail.com"
+        }
+    ],
+    "require": {
+        "mdurrant/php-binary-reader": "^1.0",
+        "symfony/console": "^5.1",
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LegoMedia\\LegoLand\\": "src"
+        }
+    }
+}
